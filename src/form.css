@@ -1,0 +1,56 @@
+
+input{
+    width: 25%;
+    height: 23px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    padding: 5px;
+}
+body{
+    background-color: azure;
+}
+button{
+    height: 29px;
+    width: 100px;
+    margin-left: 5px;
+    background-color: forestgreen;
+    border: none;
+    color: white;
+border-radius: 5px;
+}
+.todo-container{
+    margin-left: 35%;
+    margin-top: 50px;
+}
+.task{
+    width: 48%;
+    margin-top: 10px;
+    margin-left: -20%;
+    background:blanchedalmond ; display:flex; justify-content:space-between;
+    padding-left: 8px;
+    padding: 5px;
+
+}
+    
+.pending-todo{
+    
+    padding: 5px 0px 5px;
+    margin-left: 15%;
+
+}
+.list{
+    height: '30px';
+     font-size:18px;
+     font-style: italic;
+}
+.submit{
+    height: 36px;
+}
+.removeall{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.markdone{
+    background-color:yellow;
+    color: black;
+}
